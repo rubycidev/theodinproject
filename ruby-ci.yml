@@ -1,0 +1,23 @@
+# root/ruby-ci.yml
+
+version: 1
+
+build_packs:
+  rails: {}
+  ruby_version:
+    version: 3.2.2
+  nodejs_version:
+    # Available versions: [12..17]
+    version: 16.13.1
+  pg_version:
+    # Available versions: [9..14]
+    version: '12'
+  redis_version:
+    # Available versions: [5.0, 6.0, 6.2]
+    version: '6.2'
+  imagemagick_version:
+    # Available versions: [7.0.10-58]
+    version: 7.0.10-58
+  geckodriver_version:
+    # Available versions: [0.29.1]
+    version: 0.29.1
