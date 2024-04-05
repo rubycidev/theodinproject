@@ -58,13 +58,12 @@ group :development do
 end
 
 group :development, :test do
-  gem 'dotenv-rails', '~> 2.8'
+  gem 'dotenv-rails', '~> 3.1'
   gem 'rspec-rails', '~> 6.1'
 end
 
 group :test do
   gem 'capybara', '~> 3.40'
-  gem 'climate_control', '~> 1.2'
   gem 'cuprite', '~> 0.15'
   gem 'erb_lint', '~> 0.5', require: false
   gem 'factory_bot_rails', '~> 6.4'
